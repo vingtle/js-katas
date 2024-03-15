@@ -15,6 +15,41 @@ If the argument is null, return "Illegal argument".
 If a value of the argument is not 1 or 2, return "Illegal argument".
 */
 // TODO add your code here
+const getScore = (score) => {
+   if (!score) {
+     return "Illegal argument"
+   }
+}
+const getScore = (score) => {
+     if (score.length === 0) 
+     return "0-0 : draw";
+else {
+     let firstTeamScore = 0;
+     let secondTeamScore = 0;
+     for ( const socre of scores) {
+       if (score === 1)
+       firstTeamScore += 1;
+     else if (score === 2)
+     secondTeamScore +=1;
+     else 
+     return "Illegal argument"
+     }
+}
+else {
+     return "Illegal argument"
+}
+const getScore = (score) => {
+     if (score.length === 0) 
+     If (firstTeamScore > secondTeamScore)
+     return '${firstTeamScore} - ${secondTeamScore}' : team 1 wins the game'
+     else if (secondTeamScore > secondTeamScore)
+     return '${firstTeamScore} - ${secondTeamScore}' : team 2 wins the game'
+     else 
+     return '${firstTeamScore} - ${secondTeamScore} : draw'
+
+
+
+
 
 // Begin of tests
 const assert = require("assert");
